@@ -53,3 +53,9 @@ Expected Output: _[0, '1', '2', '3', 4, 5]_
 Code: _beepBoop(5);_
 
 Expected Output: _[0, 'Beep!', '2', '3', 4, 5]_
+
+**Test:** _It will only change one instance of 1 in the string of which it appears in; it will add spacing between 'Bleep!' and the remaining numbers" _
+
+Code: _beepBoop(10);_
+
+Expected Output: _['0', 'Beep!', '2', '3', '4', '5', '6', '7', '8', '9', 'Beep! 0']_
