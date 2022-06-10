@@ -33,7 +33,7 @@ Copyright (c) _6/10/2022_ _Grace Kostanich_
 ## Tests
 
 
-**Describe:** _cardNumberCutter()_
+**Describe:** _beepBoop()_
 
 
 **Test:** _It will return an array of numbers from 0 to the user's inputted number_
@@ -47,3 +47,9 @@ Expected Output: _[0, 1, 2, 3, 4, 5]_
 Code: _beepBoop(5);_
 
 Expected Output: _[0, '1', '2', '3', 4, 5]_
+
+**Test:** _It will change the value of each character in an array of numbers to a string, then replace any string containing a 1 with the word "Beep!" _
+
+Code: _beepBoop(5);_
+
+Expected Output: _[0, 'Beep!', '2', '3', 4, 5]_
