@@ -30,3 +30,14 @@ _none_
 
 Copyright (c) _6/10/2022_ _Grace Kostanich_
 
+## Tests
+
+
+**Describe:** _cardNumberCutter()_
+
+
+**Test:** _It will return an array of numbers from 0 to the user's inputted number_
+
+Code: _beepBoop(5);_
+
+Expected Output: _[0, 1, 2, 3, 4, 5]_
