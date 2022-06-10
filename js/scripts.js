@@ -13,11 +13,11 @@ let newArrayRange = arrayRange.map(function(element){
   if (arrayRange.includes(element)) {
     let wordsArrayRange = element.toString();
     let stringWordsArrayRange = wordsArrayRange.replace("1", " Beep! ");
-    let test = stringWordsArrayRange.trim(" ");
-    return test
-  }
-   
 
+    return stringWordsArrayRange
+  }
+
+  
 });
 console.log(newArrayRange);
 }
