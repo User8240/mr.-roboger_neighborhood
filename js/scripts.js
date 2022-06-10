@@ -8,18 +8,19 @@ function beepBoop(number) {
   console.log(arrayRange);
 //cut previous working function
 
-let newArrayRange = arrayRange.map(function(element){
-  if (element.includes(1,2,3)) {
-    let wordsArrayRange = element.toString();
-    return wordsArrayRange
-    //return wordsArrayRange.replaceAll("")
+let testArray = arrayRange.toString();
+let newArrayRange = testArray.map(function(element){
+    console.log(newArrayRange)
+  if (newArrayRange.includes("1","2","3")) {
+   // let wordsArrayRange = element.toString();
+    return testArray.replaceAll("ok")
   }
-  else { (element !== 3)
-    return element
+  else { 
+  return element
   }
 
 });
 console.log(newArrayRange);
 }
-  beepBoop(5);
+  beepBoop(14);
   //

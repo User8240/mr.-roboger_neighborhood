@@ -41,3 +41,9 @@ Copyright (c) _6/10/2022_ _Grace Kostanich_
 Code: _beepBoop(5);_
 
 Expected Output: _[0, 1, 2, 3, 4, 5]_
+
+**Test:** _It will turn a value in an array of numbers that is greater than 0 and less than or equal to 3 into a string value, and return this as a new array _
+
+Code: _beepBoop(5);_
+
+Expected Output: _[0, '1', '2', '3', 4, 5]_
