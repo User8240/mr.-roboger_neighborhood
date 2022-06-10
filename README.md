@@ -42,19 +42,19 @@ Code: _beepBoop(5);_
 
 Expected Output: _[0, 1, 2, 3, 4, 5]_
 
-**Test:** _It will turn a value in an array of numbers that is greater than 0 and less than or equal to 3 into a string value, and return this as a new array _
+**Test:** _It will turn a value in an array of numbers that is greater than 0 and less than or equal to 3 into a string value, and return this as a new array_
 
 Code: _beepBoop(5);_
 
 Expected Output: _[0, '1', '2', '3', 4, 5]_
 
-**Test:** _It will change the value of each character in an array of numbers to a string, then replace any string containing a 1 with the word "Beep!" _
+**Test:** _It will change the value of each character in an array of numbers to a string, then replace any string containing a 1 with the word "Beep!"_
 
 Code: _beepBoop(5);_
 
 Expected Output: _[0, 'Beep!', '2', '3', 4, 5]_
 
-**Test:** _It will only change one instance of 1 in the string of which it appears in; it will add spacing between 'Bleep!' and the remaining numbers" _
+**Test:** _It will only change one instance of 1 in the string of which it appears in; it will add spacing between 'Bleep!' and the remaining numbers"_
 
 Code: _beepBoop(10);_
 
