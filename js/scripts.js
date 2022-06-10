@@ -12,13 +12,23 @@ let newArrayRange = arrayRange.map(function(element){
 
   if (arrayRange.includes(element)) {
     let wordsArrayRange = element.toString();
+    //let wordsArrayRange = element.split("1")
     let stringWordsArrayRange = wordsArrayRange.replace("1", " Beep! ");
 
-    return stringWordsArrayRange
-  }
+    let pattern = "Bleep!"
+    let test = stringWordsArrayRange.length
+    console.log(test)
+//------------Testing Section-----------------------------------------
+
 
   
-});
+
+
+
+//--------------------------------------------------------------------
+    return stringWordsArrayRange
+    }
+  });
 console.log(newArrayRange);
 }
   beepBoop(21);
