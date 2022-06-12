@@ -8,6 +8,27 @@
   <title>Mr.Robogers Neighborhood</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron">
+      <h1><strong>Mr.Robogers Neighborhood</strong></h1> 
+      <p>Here in the neighborhood, we like to speak in code.<br>
+        Drop a number and we'll show you what it's all about!
+      </p>
+    </div>
+      <form id="main-form">
+        <div class="form-group">
+          <label for="userInput">Type in a Number:</label>
+          <input id="userInput" class="form-control" type="text">
+          <div id="results">
+            <br>
+            <button type="submit" class="btn">Submit</button>
+            <h1><span id="userOutput"></span></h1>
+          </div>
+        </div>
+      </form>
+      <button id="hideResults" class="btn">Reset</button>
+      <br>
+      <br>
+  </div>
 </body>
 </html>
