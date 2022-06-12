@@ -6,8 +6,18 @@ function beepBoop(usersNumber) {
       arrayRange.push([i].toString());
   }
   console.log(arrayRange)
+
+  arrayRange.forEach(function(element) {
+   if (element.includes(1)) {
+    newArray.push("Beep!")
+  }
+   else {
+    newArray.push(element);
+  }
+  });
+return newArray
 }
-  beepBoop(10);
+beepBoop(10);
 
 
 
