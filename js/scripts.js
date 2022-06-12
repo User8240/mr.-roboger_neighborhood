@@ -1,14 +1,12 @@
-//Business Logic
+//Business Logic----------------------------------
 function beepBoop(usersNumber) {
   let arrayRange = [];
   let newArray = [];
   for (let i = 0; i <= usersNumber; i = i + 1) {
       arrayRange.push([i].toString());
   }
-  console.log(arrayRange)
-
   arrayRange.forEach(function(element) {
-   if (element.includes(3)) {
+    if (element.includes(3)) {
     newArray.push("Won't you be my neighbor?")
   } else if (element.includes(2)) {
     newArray.push("Boop!")
@@ -18,10 +16,20 @@ function beepBoop(usersNumber) {
     newArray.push(element);
   }
   });
-return newArray
+  return newArray
 }
-beepBoop(23);
+//UI logic----------------------------------------
+$(document).ready(function() {
+  $("#main-form").submit(function(event) {
+    event.preventDefault();
+    const usersNumber = $("input#userInput").val();
+    let userOutput = beepBoop(usersNumber)
+    $("#userOutput").text(userOutput);
+    $("#results").show();
+  });
 
-
-
-  //UI logic
+  $("#hideResults").click(function(event) {
+    $("#userOutput").text("");
+    $("#userInput").val("");
+  });
+});
