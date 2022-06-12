@@ -71,3 +71,9 @@ Expected Output: _['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']_
 Code: _beepBoop(10);_
 
 Expected Output: _['0', 'Beep!', '2', '3', '4', '5', '6', '7', '8', '9', 'Beep!']_
+
+**Test:** _It will replace all instances of the numbers 1, 2, and 3 per string with a word or phrase, favoring greater numbers first_
+
+Code: _beepBoop(23);_
+
+Expected Output: _['0', 'Beep!', 'Boop!', "Won't you be my neighbor?", '4', '5', '6', '7', '8', '9', 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor?", 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Boop!', 'Boop!', 'Boop!', "Won't you be my neighbor?"]_
