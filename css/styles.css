@@ -1,0 +1,16 @@
+.jumbotron {
+  background-color: rgb(103, 175, 126);
+  text-align: center;
+  color: white;
+  font-family: 'Courier New';
+}
+
+.container {
+  font-family: 'Courier New';
+  background-color: gainsboro;
+}
+
+.btn {
+  display: block;
+  background-color:lightskyblue;
+}
