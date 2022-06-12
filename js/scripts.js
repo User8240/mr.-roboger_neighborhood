@@ -1,17 +1,14 @@
 //Business Logic
-function beepBoop(number) {
-  let arrayRange = []
-  for (let i = 0; i <= number; i++) {
-      arrayRange.push(i)
+function beepBoop(usersNumber) {
+  let arrayRange = [];
+  let newArray = [];
+  for (let i = 0; i <= usersNumber; i = i + 1) {
+      arrayRange.push([i].toString());
   }
-let newArrayRange = arrayRange.map(function(element){
-    let wordsArrayRange = element.toString();
-    let stringWordsArrayRange = wordsArrayRange.replace("1", " Beep! ");
-    return stringWordsArrayRange
-    });
-    console.log(newArrayRange);
-  }
-  beepBoop(21);
+  console.log(arrayRange)
+}
+  beepBoop(10);
+
 
 
   //UI logic
