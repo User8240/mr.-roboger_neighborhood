@@ -14,3 +14,7 @@
   display: block;
   background-color:lightskyblue;
 }
+
+#userOutput {
+  word-break: break-word;
+}
